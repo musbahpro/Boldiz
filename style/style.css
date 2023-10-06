@@ -344,7 +344,7 @@ letter-spacing: -4px;
 .newsCard:hover .cardText{
   transform: translateY(100px);
 }
-.cardText h3{
+.cardText h1{
 font-family: var(--titel-font);
 font-size: 28px;  
 }
