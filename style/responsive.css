@@ -1,0 +1,73 @@
+:root {
+--accent-color: #333;
+--black-color: #000;
+--dark-color: #111;
+--gray-color-100: #F9F7F5;
+--gray-color-200: #EFEFEF;
+--gray-color-300: #D1D1D1;
+--gray-color-400: #C0C0C0;
+--gray-color-500: #adb5bd;
+--dark-gray-color: #474341;
+--bs-light-rgb: rgba(255,255,255,1);
+--light-color: #fff;
+--primary-color: #ff9e0d;
+--swiper-theme-color: #807E7C !important;
+--bs-primary-rgb: 255,158,13;
+--body-font: "Open Sans", sans-serif;
+--heading-font: "Oswald", serif;
+}
+
+
+@media only screen and (max-width: 1150px){
+.hiroDescription .hiroTitel{ font-size: 6rem; }
+}
+@media only screen and (max-width: 900px){
+  .num{ margin-left: 30px;
+   justify-content: end; 
+  }
+  }
+  
+
+
+@media only screen and (max-width: 1000px) {
+.navBar{
+  display: block;
+  padding-left: 40px;
+}
+.navLinks{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1000;
+  width: 300px;
+  height: 100vh;
+  padding-left: 40px;
+  padding-top: 50px;
+  display: none;
+}
+.activ{ display: block;}
+
+.socilIcon{ display: none;}
+
+.navLinks #close ,.open{ display: block;}
+
+.open{
+ position: absolute;
+ right: 30px;
+ top: 30px;
+ color: var(--light-color);
+ font-size: 40px;
+ cursor: pointer;
+}
+.navLinks li{ padding: 25px 0px; }
+.navLinks li a{
+ font-size: 22px;
+ font-weight: 600;
+ color: var(--dark-color);
+}
+.hiroDescription{ top: 22%; left: 10%;}
+.hiroDescription .hiroTitel{ font-size: 4rem; }
+      
+}

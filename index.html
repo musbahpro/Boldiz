@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="hiro">
+        <!-- ========== NavBar ========== -->
+        <nav class="navBar">
+            <div class="navLogo">
+                <a href="#"><img src="images/main-logo.png" alt="logo"></a>
+            </div>
+            <i class="fa-solid fa-bars open" id="open"></i>
+            <ul class="navLinks" id="ulList">
+                <i class="fa-regular fa-x" id="close"></i>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">TEAM</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="socilIcon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </nav>
+        <!-- ========== Hiro Description ========== -->
+        <div class="hiroDescription">
+            <h1 class="hiroTitel">WE ARE BEST CONSTRUCTION COMPANY</h1>
+            <a href="#" class="hiroBtn light btn">
+                <span class="hiroBtnSpan">VIEW OUR PROJECTS</span>
+            </a>
+        </div>
+    </section>
+    <!-- ========== PROJECTS   ========== -->
+    <section class="projects">
+        <div class="projectsTitel">
+            <div class="topTitel">
+                <p><span>--------</span> OUR PROJECTS</p>
+            </div>
+            <h1>EXPLORE OUR WORKS</h1>
+        </div>
+            <ul id="project-filter">
+                <li><button onclick="filterProjects('all')">All</button></li>
+                <li><button onclick="filterProjects('Buildings')">Buildings</button></li>
+                <li><button onclick="filterProjects('Interior')">Interior & Exterior</button></li>
+                <li><button onclick="filterProjects('Renovate')">Renovate</button></li>
+                <li><button onclick="filterProjects('Road')">Road</button></li>
+            </ul>
+
+    <div id="project-list" class="project-list">
+        <div class="Buildings prodacts"> 
+            <img   src="images/projects-item1.jpg" alt="Project 1">
+            <h1 class="cardTitel">OUTBOX CREATIVES BUILDING</h1>
+        </div> 
+         <div  class="Buildings prodacts"> 
+            <img src="images/projects-item2.jpg" alt="Project 2">
+            <h1 class="cardTitel">SLOVA PRIVATE RESIDENCE</h1>
+        </div>          
+         <div class="Interior prodacts"> 
+            <img  src="images/projects-item4.jpg" alt="Project 4">
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>
+         <div class="Interior prodacts"> 
+            <img  src="images/projects-item5.jpg" alt="Project 5">
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>
+         <div class="Renovate prodacts"> 
+            <img  src="images/projects-item7.jpg" alt="Project 7">
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>        
+         <div class="Renovate prodacts"> 
+            <img  src="images/projects-item8.jpg" alt="Project 8">
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>
+         <div class="Road prodacts"> 
+            <img  src="images/projects-item9.jpg" alt="Project 9">
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div> 
+         <div class="Road prodacts"> 
+            <img  src="images/projects-item3.jpg" alt="Project 10"> 
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>         
+        <div class="Road prodacts"> 
+            <img  src="images/projects-item6.jpg" alt="Project 10"> 
+            <h1 class="cardTitel">JAGUARE GARMENT INDUSTRY</h1>
+        </div>      
+        </div>
+    </section>
+   <!-- ========== PROJECTS   ========== -->
+   <section class="servises">
+     <div class="overley">
+        <div class="servis">
+            <h1 class="servisTitel">Building New Homes</h1>
+            <p>Vehicula at eget a arcu neque ultricies.</p>
+            <a href="#" class="servisBtn light btn">
+              <span class="hiroBtnSpan">READ MORE</span>
+            </a>
+        </div>
+        <div class="servis">
+            <h1 class="servisTitel">Designing Spaces</h1>
+            <p>Ultricies liquet tempus vel amet.</p>
+            <a href="#" class="servisBtn light btn">
+              <span class="hiroBtnSpan">READ MORE</span>
+            </a>
+        </div>
+        <div class="servis">
+            <h1 class=servisTitel>Road Maintenance</h1>
+            <p>Tempus vel amet eget egestas arcu non. </p>
+            <a href="#" class="servisBtn light btn">
+              <span class="hiroBtnSpan">READ MORE</span>
+            </a>
+        </div>
+        
+     </div>
+   </section>
+    <!-- ========== customers   ========== -->
+    <section class="customers container">
+        <div class="item"> <img src="images/brand-item1.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item2.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item3.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item4.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item5.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item6.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item7.png" alt="Customers Logo"> </div>
+        <div class="item"> <img src="images/brand-item8.png" alt="Customers Logo"> </div>
+    </section>
+
+     <!-- ========== TEAM   ========== -->
+     <section class="team" >
+        <div class="projectsTitel">
+            <div class="topTitel">
+                <p><span>--------</span> MEET OUR TEAM</p>
+            </div>
+            <h1>OUR PROFESSIONAL TEAM</h1>
+        </div>
+           <div class="teamCards">
+            <div class="card">
+                <div class="cardImg">
+                    <img class="teamImg"src="images/team-item1.jpg" alt="tram photo">
+                </div>
+                <h1>Alex Smith</h1>
+                <p>Co-founder</p>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img class="teamImg" src="images/team-item2.jpg" alt="tram photo">
+                </div>
+                <h1>Alex Smith</h1>
+                <p>Co-founder</p>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img class="teamImg" src="images/team-item3.jpg" alt="tram photo">
+                </div>
+                <h1>Alex Smith</h1>
+                <p>Co-founder</p>
+            </div>
+           </div> 
+        </div>
+        
+     </section>
+    <!-- ========== Numbers   ========== -->
+    <div class="numbers">
+        <div class="num">
+            <h1>780</h1><span>PROJECTS DONE</span>
+        </div>
+        <div class="num">
+            <h1>127</h1><span>TOTAL MEMBERS</span>
+        </div>
+        <div class="num">
+            <h1>673</h1><span>HAPPY CUSTOMERS</span>
+        </div>
+        <div class="num">
+            <h1>29</h1><span>AWARDS</span>
+        </div>
+    </div>
+      <!-- ========== Numbers   ========== -->
+    <div class="news">
+    <div class="projectsTitel">
+        <div class="topTitel">
+            <p><span>--------</span> NEWS ARTICLES</p>
+        </div>
+        <h1>READ LATEST ARTICLES</h1>
+    </div>
+<div class="newsCards container">
+    <div class="newsCard" style="background-image: url(./images/post-item1.jpg); background-repeat: no-repeat;">
+         <div class="cardText">
+            <span>Feb 1, 2022 / Buildings</span>
+             <h3>TOP 10 MINDBLOWING ARCHITECTURE BUILDINGS IN THE WORLD</h3>
+             <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s certainly true... </p>
+         </div>
+    </div>
+    <div class="newsCard" style="background-image: url(./images/post-item2.jpg); background-repeat: no-repeat;">
+        <div class="cardText">
+            <span>Feb 1, 2022 / Buildings</span>
+             <h3>TOP 10 MINDBLOWING ARCHITECTURE BUILDINGS IN THE WORLD</h3>
+             <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s certainly true... </p>
+         </div>    
+    </div>
+    <div class="newsCard" style="background-image: url(./images/post-item3.jpg); background-repeat: no-repeat;">
+        <div class="cardText">
+            <span>Feb 1, 2022 / Buildings</span>
+             <h3>TOP 10 MINDBLOWING ARCHITECTURE BUILDINGS IN THE WORLD</h3>
+             <p>It’s normal to feel anxiety, worry and grief any time you’re diagnosed with a condition that’s certainly true... </p>
+         </div>    
+    </div>
+</div>
+<a href="#" class="servisBtn dark btn">
+    <span class="hiroBtnSpan">READ MORE</span>
+  </a>
+     </div> 
+<!-- ========== Footer   ========== -->
+<footer class="container">
+    <div class="">
+        <img src="images/main-logo-dark.png" alt="" srcset="">
+        <p>Vehicula at eget a arcu neque, ultricies liquet tempus.</p>
+    </div>
+    <ul class="footerList">
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>PROJECTS</li>
+        <li>SERVICES</li>
+        <li>NEWS</li>
+    </ul>
+    <div class="adres">
+        <address>163 Elm Drive, New York City United <br> States</address>
+            <span class="phone"> (+089) 234-516-6123</span><br>
+            <span>info@yourinfo.com</span>
+    </div>
+
+</footer>
+<hr>
+<div class="copyright container">
+    <p>©2023 Boldiz | Designed by:</p>
+    <div class="footerSochil">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
